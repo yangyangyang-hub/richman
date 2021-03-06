@@ -1,28 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <big-item></big-item>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import BigItem from './components/bigItem'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BigItem
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="less" scoped>
+@import './assets/css/normalize.css';
+@import './assets/css/smallItem.css';
+@import './assets/css/middleItem.css';
+@import './assets/css/bigItem.css';
+
+</style>>

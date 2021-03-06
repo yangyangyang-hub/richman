@@ -1,0 +1,9 @@
+@media screen and (min-width: 970px) {
+    body {
+        background-color: pink;
+        /* position: relative; */
+    }
+    html {
+        font-size: 16px;
+    }
+}
